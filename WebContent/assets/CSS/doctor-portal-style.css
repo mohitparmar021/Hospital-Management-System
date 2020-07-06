@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+    body
+    { 
+      background-color: #f1f1f1;  
+    }
+    .head
+    {   
+      background-color: rgb(29, 176, 189); 
+      height: 100px;
+      width: 100%;
+      margin-top: 40px;
+    }
+    .head p
+    {
+      font-size: 40px;
+      margin-left: 100px;
+    }
+    .bt-home
+    {
+      width: 80%;
+      height: 60px;
+      text-decoration: none;
+      background-color: white;
+      font-size: 25px;
+      color: rgb(29, 176, 189); 
+      border:none;
+    }
+    .bt-home a
+    {
+      color: rgb(29, 176, 189); 
+      text-decoration: none;
+    }

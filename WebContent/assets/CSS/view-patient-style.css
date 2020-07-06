@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+ body
+		{ 
+			background-color: #f1f1f1;  
+		}
+		.head
+		{		
+			background-color: rgb(29, 176, 189); 
+			height: 200px;
+			width: 100%;
+			margin-top: 30px;
+		}
+		.head p
+		{
+			font-size: 50px;
+			position: relative;
+			top: 58px;
+			color: white;
+		}
+		.data h1
+		{
+			margin-top: 100px;
+			color: rgb(29, 176, 189); 
+		}
+		.bt-back
+		{
+
+			background-color: rgb(29, 176, 189); 
+			margin-top: 20px;
+			margin-left:130px;
+			width: 14%;
+		}
+		.bt-back a
+		{
+			color: white;
+			text-decoration: none;
+			font-size: 25px;
+		}
+		table
+		{
+			margin-top: 30px;
+			border-color: rgb(29, 176, 189); 
+		}
+		.text-heading
+         {
+         	color: rgb(29, 176, 189); 
+         }

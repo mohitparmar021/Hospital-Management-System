@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Receptionist</title>
+<link rel="stylesheet" type="text/css" href="assets/boots/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/CSS/add-receptionist-style.css">
+</head>
+<body>
+<div class="head">
+       <div class="container">
+       	   <p class="font-weight-normal text-light">Add Receptionist</p>
+       	    
+       </div>
+</div>
+
+<div class="container"> 
+	<form action="AddReceptionist" method="post">
+		    <div class="row rowspace">
+      	         <div class="col-xl-6">  	
+      	         </div>  
+      	          <div class="col-xl-2">  	
+      	         </div>  	 
+      	          <div class="col-xl-4">  
+      	             <input type="submit" value="Add Receptionist" class="btn-sm bt-add-receptionist" name="">  
+      	             <input type="reset" value="clear" class="btn-sm bt-clear-receptionist" name="">  
+      	             <button class="btn-sm bt-back"><a href="Receptionist-Home-Page.html">Back</a></button>	 
+
+      	         </div>    
+            </div>
+            
+             <div class="row rowspace">
+      	         <div class="col-xl-2">  
+      	             <label for="r-first-name" class="text-label">First Name</label> 	      	     
+      	         </div>
+      	         <div class="col-xl-4"> 
+	  	           	  <input type="text" name="r-first-name" class="form-textbox form-control">	 	
+      	         </div>
+      	         <div class="col-xl-2"> 
+	  	           	 <label for="r-last-name" class="text-label">Last Name</label>	
+      	         </div>
+      	          <div class="col-xl-4">  
+      	            <input type="text" name="r-last-name" class="form-textbox form-control">
+      	         </div>
+      	       
+            </div>
+             <div class="row rowspace">
+      	         <div class="col-xl-2">  
+      	            <label for="gender" class="text-label">Gender</label>    	     
+      	         </div>
+      	         <div class="col-xl-4"> 
+	  	           	  <select class="form-control" name="gender">
+ 	   	       	     	              <option value="">-Select-Please-</option>
+ 	   	       	     	              <option value="male">Male</option>
+ 	   	       	     	              <option value="female">Female</option>
+ 	   	       	                  </select>
+      	         </div>
+      	         <div class="col-xl-2"> 
+	  	           	 <label for="r-blood-group" class="text-label">Blood Group</label>
+      	         </div>
+      	          <div class="col-xl-4">  
+      	            <select class="form-control" name="blood-grp">
+ 	   	       	     	              <option>-Select-Please-</option>
+ 	   	       	     	              <option value="O+">O+</option>
+ 	   	       	     	              <option value="A+">A+</option>
+ 	   	       	     	              <option value="B+">B+</option>
+ 	   	       	     	              <option value="O-">O-</option>
+ 	   	       	     	              <option value="A-">A-</option>
+ 	   	       	     	              <option value="B-">B-</option>
+ 	   	       	     	              <option value="AB+">AB+</option>
+ 	   	       	     	              <option value="AB-">AB-</option>
+ 	   	       	                  </select>
+      	         </div>
+      	       
+            </div>
+            <div class="row rowspace">
+      	         <div class="col-xl-2">  
+      	            <label for="r-dob" class="text-label">D.O.B</label>      	     
+      	         </div>
+      	         <div class="col-xl-4"> 
+	  	           	  <input type="date" name="r-dob" class="form-textbox form-control">	
+      	         </div>
+      	         <div class="col-xl-2"> 
+	  	           	<label for="r-date-of-joining" class="text-label">Date of Joining</label>  
+      	         </div>
+      	          <div class="col-xl-4">  
+      	          <input type="date" name="r-date-of-joining" class="form-textbox form-control">	
+      	         </div>
+      	       
+            </div>
+             <div class="row rowspace">
+      	         <div class="col-xl-2">  
+      	            <label for="r-qualification" class="text-label">Qualification</label>    	     
+      	         </div>
+      	         <div class="col-xl-4"> 
+	  	           	  <input type="text" name="r-qualification" class="form-textbox form-control">
+      	         </div>
+      	         <div class="col-xl-2"> 
+	  	           	  <label for="r-marital-status" class="text-label">Marital Status</label>
+      	         </div>
+      	          <div class="col-xl-4">  
+      	             <select class="form-control" name="marital-status">
+ 	   	       	     	              <option value="">-Select-Please-</option>
+ 	   	       	     	              <option value="yes">Yes</option>
+ 	   	       	     	              <option value="no">No</option>
+ 	   	       	       </select>
+      	         </div>
+      	       
+            </div>
+              <div class="row rowspace">
+      	         <div class="col-xl-2">  
+      	           <label for="r-mobile" class="text-label">Mobile</label>    	     
+      	         </div>
+      	         <div class="col-xl-4"> 
+	  	           	  <input type="text" name="r-mobile" class="form-textbox form-control">
+      	         </div>
+      	         <div class="col-xl-2"> 
+	  	           	  <label for="r-address" class="text-label">Address</label>    	
+      	         </div>
+      	          <div class="col-xl-4">  
+      	             <input type="text" name="r-address" class="form-textbox form-control">
+      	         </div>
+      	       
+            </div>  
+             <div class="row rowspace">
+      	         <div class="col-xl-2">  
+      	           <label for="r-email" class="text-label">Email</label>    	     
+      	         </div>
+      	         <div class="col-xl-4"> 
+	  	           	  <input type="email" name="r-email" class="form-textbox form-control">
+      	         </div>
+      	        
+      	       
+            </div>        
+           
+	</form>
+
+</div>
+
+</body>
+</html>

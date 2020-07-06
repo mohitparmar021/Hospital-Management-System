@@ -1,0 +1,57 @@
+@CHARSET "ISO-8859-1";
+   body
+        {
+        	min-height: 100vh;
+		    background-color: rgb(29, 176, 189);     	
+        }
+        .login-form
+        {
+        	width: 360px;
+        	height: 480px;
+        	background-color: #f1f1f1;
+        	border-radius: 10px;
+        	padding: 80px,40px;
+        	position: absolute;
+    	    left:50%;
+    	    top:50%;
+    	    transform: translate(-50%,-50%);
+        }
+        h1
+        {
+        	text-align: center;
+            margin-top: 80px;
+            color:rgb(29, 176, 189);   
+        }
+        #user
+        {
+        	width: 80%;
+        	margin-left: 36px;
+        }
+         #Password
+        {
+        	width: 80%;
+        	margin-left: 36px;
+        }
+        .label-text
+        {
+        	margin-left: 38px;
+        	font-size: 18px;
+            color: rgb(29, 176, 189);   
+        }
+        .btn
+        {
+            margin-left: 120px;
+     	    width: 30%;
+     	    padding: 5px,10px;
+     	    margin-top: 20px;
+     	    background-color: rgb(29, 176, 189);      
+     	    color: white	
+        }
+              
+        .bottom-text
+        {
+        	text-align: center;
+        }
+         .bottom-text a{
+        	text-decoration: none;
+        }

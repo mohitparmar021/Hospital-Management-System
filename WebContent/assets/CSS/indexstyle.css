@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+     .head
+     {   	
+     	background-color:rgb(29, 176, 189);
+     	
+     }
+     .bt-admin
+     {
+     	background-color: rgb(29, 176, 189);
+        color: #f1f1f1;
+     }
+     .bt-receptionist
+     {
+     	background-color:rgb(29, 176, 189);
+        color: #f1f1f1;
+     }
+     .bt-docotr
+     {
+     	background-color: rgb(29, 176, 189);
+        color: #f1f1f1;
+     }
+     .bt-button a
+     {
+     	    text-decoration: none; 
+            background-color: rgb(29, 176, 189);        
+            color: #f1f1f1;
+            border:2px solid rgba(0, 123, 255, 0.5);
+     }

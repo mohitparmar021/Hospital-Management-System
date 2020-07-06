@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+      .rowspace
+		{
+			margin-top: 35px;
+		}
+       body
+		{ 
+			background-color: #f1f1f1;  
+		}
+		
+		.head
+		{		
+			background-color: rgb(29, 176, 189); 
+			height: 80px;
+			width: 100%;
+			margin-top: 30px;
+		}
+		.head p
+		{
+			font-size: 40px;
+			position: relative;
+			top: 8px;
+			margin-left: 20px;
+		}
+		
+		 .add-patients-form
+		 {
+		 	margin-top: 30px;
+		 }
+		
+		 .text-label
+		 {
+		 	color: rgb(29, 176, 189);  
+		 	font-weight: 400;
+		 	font-size: 20px;
+		 }
+		 .bt-home
+		 {
+		 	background-color:rgb(29, 176, 189); 
+		 	margin-left: 10px;
+		 }
+		 .bt-home a
+		 {
+		 	text-decoration: none;
+		 	color: white;
+		 }
+		 .bt-back 
+		 {
+		 	background-color:rgb(29, 176, 189); 
+		 	margin-left: 10px;
+		 }
+		 .bt-back a
+		 {
+		 	text-decoration: none;
+		 	color: white;
+		 }
+		 .bt-update
+		 {
+		     background-color:rgb(29, 176, 189); 
+		     color: white;
+		 }
